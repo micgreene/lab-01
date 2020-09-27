@@ -1,0 +1,47 @@
+h1 {
+  /*margin: 0;*/
+}
+
+section {
+  overflow:auto;
+  margin: auto;
+}
+
+.a {
+  height: 75px;
+  width: 480px;
+}
+
+.b {
+  height: 150px;
+  width: 480px;
+}
+.c {
+  height: 125px;
+  width: 480px;
+}
+.d {
+  height: 125px;
+  width: 480px;
+}
+.grp1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grp2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grp1 div{
+  height: 250px;
+  width: 240px;
+}
+.grp2 div{
+  display: table-row-group;
+  height: 250px;
+  width: 240px;
+}
+.i {
+  height: 80px;
+  width: 480px;
+}
